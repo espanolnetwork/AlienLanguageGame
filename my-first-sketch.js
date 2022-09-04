@@ -13,12 +13,12 @@ let alto = window.screen.availHeight, ancho = window.screen.width;
 
 function preload() {
   //bg = loadImage('blob/main/images/background.png');
-  ship = loadImage('blob/main/images/ship.png');
-  abducte = loadSound('blob/main/audios/abducte.m4a')
+  ship = loadImage('https://raw.githubusercontent.com/espanolnetwork/AlienLanguageGame/main/images/Ship.png');
+  abducte = loadSound('https://raw.githubusercontent.com/espanolnetwork/AlienLanguageGame/main/audios/abducte.m4a')
   for (var i = 0; i < nombres.length; i++) {
     numbers[i]= i;
-    animals[i]= loadImage('blob/main/images/animal' + i + '.png');
-    sonidos[i]= loadSound('blob/main/audios/animal' + i + '.m4a');
+    animals[i]= loadImage('https://raw.githubusercontent.com/espanolnetwork/AlienLanguageGame/main/images/animal' + i + '.png');
+    sonidos[i]= loadSound('https://raw.githubusercontent.com/espanolnetwork/AlienLanguageGame/main/audios/animal' + i + '.m4a');
   }
 }
 

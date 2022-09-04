@@ -12,13 +12,13 @@ let nombres = ['buho', 'gato', 'vaca', 'pez', 'perro', 'elefante', 'jirafa', 'go
 let alto = window.screen.availHeight, ancho = window.screen.width;
 
 function preload() {
-  //bg = loadImage('images/background.png');
-  ship = loadImage('images/ship.png');
-  abducte = loadSound('audios/abducte.m4a')
+  //bg = loadImage('blob/main/images/background.png');
+  ship = loadImage('blob/main/images/ship.png');
+  abducte = loadSound('blob/main/audios/abducte.m4a')
   for (var i = 0; i < nombres.length; i++) {
     numbers[i]= i;
-    animals[i]= loadImage('images/animal' + i + '.png');
-    sonidos[i]= loadSound('audios/animal' + i + '.m4a');
+    animals[i]= loadImage('blob/main/images/animal' + i + '.png');
+    sonidos[i]= loadSound('blob/main/audios/animal' + i + '.m4a');
   }
 }
 

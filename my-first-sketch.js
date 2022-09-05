@@ -24,11 +24,11 @@ let alto = window.screen.availHeight, ancho = window.screen.width;
 
 function setup() {
   createCanvas(0.9*ancho, 0.9*alto);
-  ship = createImg('https://raw.githubusercontent.com/espanolnetwork/AlienLanguageGame/main/images/Ship.png');
+  ship = loadImage('https://raw.githubusercontent.com/espanolnetwork/AlienLanguageGame/main/images/Ship.png');
   abducte = loadSound('https://raw.githubusercontent.com/espanolnetwork/AlienLanguageGame/main/audios/abducte.m4a')
   for (var i = 0; i < nombres.length; i++) {
     numbers[i]= i;
-    animals[i]= createImg('https://raw.githubusercontent.com/espanolnetwork/AlienLanguageGame/main/images/animal' + i + '.png');
+    animals[i]= loadImage('https://raw.githubusercontent.com/espanolnetwork/AlienLanguageGame/main/images/animal' + i + '.png');
     sonidos[i]= loadSound('https://raw.githubusercontent.com/espanolnetwork/AlienLanguageGame/main/audios/animal' + i + '.m4a');
   }
   angleMode(DEGREES);
